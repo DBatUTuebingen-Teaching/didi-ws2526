@@ -1,0 +1,4 @@
+Since the CSV file lineitem.csv is of substantial size (~720 MB), we
+do not share it on GitHub.  You can download the file at
+
+  https://db.cs.uni-tuebingen.de/staticfiles/lineitem.csv
