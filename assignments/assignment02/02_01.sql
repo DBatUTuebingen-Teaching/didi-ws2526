@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+-- Design and Implementation of Database Systems Internals
+-- Assignment 02
+-- Exercise 01
+--------------------------------------------------------------------------------
+-- In this exercise, we will implement the same query as in assignment 01,
+-- but this time we will use the C language with mmap and threads to
+-- speed up the query processing.
+-- query: "Compute the maximum integer value in the 5th column — consider only
+--         rows whose integer value in the first column larger than 1500000".
+-- Please download the TPC-H table `lineitem` from the following URL:
+-- https://db.cs.uni-tuebingen.de/staticfiles/lineitem.csv
+--------------------------------------------------------------------------------
+-- Task (a)
+--------------------------------------------------------------------------------
+-- Please implement the query using mmap and threads in C.
+-- See file 007-sum-quantity-mmap-threads.c in the lecture material for
+-- an example C source file.
+--------------------------------------------------------------------------------
+-- Solution:
+-- Please hand in a file query_mmap_threads.c that contains the solution.
+--------------------------------------------------------------------------------
+-- Task (b)
+--------------------------------------------------------------------------------
+-- How does the run time performance of your solution in (a) vary
+-- with the number of threads (see variable T in the original C source)
+-- your program spawns?  How does T = 1 perform?  How does T = 128 perform?
+-- Where is the "sweet spot" for T in your implementation on your
+-- computer?
+--------------------------------------------------------------------------------
+-- Solution:
+
+--------------------------------------------------------------------------------
