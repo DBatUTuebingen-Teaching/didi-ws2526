@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+-- Design and Implementation of Database Systems Internals
+-- Assignment 04
+-- Exercise 01
+--------------------------------------------------------------------------------
+-- In the lecture slides, DiDi-03.pdf, slide 15, there is a pseudocode of the
+-- external aggregation phase 1 algorithm.
+
+--------------------------------------------------------------------------------
+-- Task (a)
+--------------------------------------------------------------------------------
+-- In bold letters, the algorithm contains an optimization using salt values.
+-- This is not only an academic exercise, but also a practical one, i.e., it
+-- is implemented in DuckDB as of today.
+--
+-- Please try to find the relevant source code location in the DuckDB code base:
+-- https://github.com/duckdb/duckdb/blob/main/src/execution/aggregate_hashtable.cpp
+--
+-- Note: We are aware that the code base is large and very complex. We do not
+-- expect you to understand everything, and we do not expect you to read the
+-- file top to bottom. Just try to find the relevant code section that
+-- implements the optimization using salt values.
+--
+-- Please provide the permalink to the relevant code section in your solution.
+-- Hint: You can use GitHub's "Copy permalink" feature to get the permalink.
+--------------------------------------------------------------------------------
+-- Solution:
+--
+--
+--------------------------------------------------------------------------------
+-- Task (b)
+--------------------------------------------------------------------------------
+-- Please explain in your own words how the optimization using salt values
+-- works and why it is beneficial.
+--------------------------------------------------------------------------------
+-- Solution:
+--
+--
+--------------------------------------------------------------------------------
