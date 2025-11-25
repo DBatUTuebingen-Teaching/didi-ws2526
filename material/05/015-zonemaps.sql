@@ -28,7 +28,7 @@ LIMIT 20;
 EXPLAIN ANALYZE
 SELECT t.c1, t.c2
 FROM   t
-WHERE  t.c1 = -500_000;
+WHERE  t.c1 = 500_000;
 -- Run Time (s): real 0.001 user 0.001576 sys 0.004683
 --                    ^^^^^
 
@@ -258,7 +258,7 @@ WHERE  segment_type = 'BIGINT'
 LIMIT 20;
 
 
--- The query is as fast as before:
+-- The query now is as fast as before:
 SELECT t.c1, t.c2
 FROM   t
 WHERE  t.c1 = -500_000;
