@@ -159,8 +159,7 @@ FROM duckdb_memory();
 -- Task (a)
 --------------------------------------------------------------------------------
 -- Please explain in your own words what Zonemaps are, how they are used
--- to speed up query processing, and how DuckDB handles zonemaps when
--- a table column is updated. (One paragraph, approx. 5-15 sentences suffices.)
+-- to speed up query processing. (One paragraph, approx. 5-15 sentences suffices.)
 --------------------------------------------------------------------------------
 -- Solution:
 
