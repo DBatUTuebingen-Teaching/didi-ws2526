@@ -1,0 +1,59 @@
+--------------------------------------------------------------------------------
+-- Design and Implementation of Database Systems Internals
+-- Assignment 07
+-- Exercise 02
+--------------------------------------------------------------------------------
+-- In this exercise, we will manually construct an Adaptive Radix Tree (ART)
+-- index from scratch.
+--------------------------------------------------------------------------------
+-- Task (a)
+--------------------------------------------------------------------------------
+-- Please convert the following set of signed integer keys into their bit-wise
+-- representations (32 bits per key):
+-- -127, -120, -100, -64, -1, 64, 89, 99, 255, 418
+--------------------------------------------------------------------------------
+-- Solution:
+
+--------------------------------------------------------------------------------
+-- Task (b)
+--------------------------------------------------------------------------------
+-- Please explain in your own words how the bit-wise representation of negative
+-- integers is constructed for the ART index. In particular, please explain how
+-- the sign bit is handled. (Note: 5-10 sentences are sufficient.)
+--------------------------------------------------------------------------------
+-- Solution:
+
+--------------------------------------------------------------------------------
+-- Task (c)
+--------------------------------------------------------------------------------
+-- Using the bit-wise representations from Task (a), please construct an
+-- Adaptive Radix Tree (ART) that contains all of the above keys.
+-- Please use a span size of s = 4 bits for each node.
+--
+-- Also, please explain if it matters in which order the keys are inserted
+-- into the ART. (Note: 3-5 sentences are sufficient.)
+--------------------------------------------------------------------------------
+-- Solution:
+
+--------------------------------------------------------------------------------
+-- Task (d)
+--------------------------------------------------------------------------------
+-- Please do the same as in Task (b), but this time use a span size of
+-- s = 8 bits for each node.
+--------------------------------------------------------------------------------
+-- Solution:
+
+--------------------------------------------------------------------------------
+-- Task (e)
+--------------------------------------------------------------------------------
+-- Please discuss the differences between the two ARTs constructed in Tasks
+-- (c) and (d). In particular, please discuss the differences in terms of
+-- tree height, number of nodes, and space consumption.
+--
+-- Additionally, please discuss the advantages and disadvantages of using
+-- smaller vs. larger span sizes for ART nodes in general.
+-- 10-15 sentences are sufficient.
+--------------------------------------------------------------------------------
+-- Solution:
+
+--------------------------------------------------------------------------------
