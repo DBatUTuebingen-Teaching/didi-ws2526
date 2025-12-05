@@ -32,6 +32,10 @@
 --
 -- Also, please explain if it matters in which order the keys are inserted
 -- into the ART. (Note: 3-5 sentences are sufficient.)
+--
+-- Here are a few unicode box drawing characters that you can use to
+-- illustrate your tree:
+-- ┌ ┐ └ ┘ ├ ┤ ┬ ┴ ┼ ─ │
 --------------------------------------------------------------------------------
 -- Solution:
 
